@@ -137,10 +137,10 @@ Write each video prompt as **one flowing paragraph in present tense, about 5–9
 1. Make and review all starting images in scene order. As soon as an image passes, submit its video and start the next scene's image while earlier videos render, within the visible concurrent-job limit.
 2. Record for each scene: image name, video job/asset ID, status, and measured clip duration.
 3. Retry a video only after a confirmed failure, or for clearly unusable output: blank, broken faces, a character turning into the other one, a wrong person count, or garbled or missing dialogue. Use at most 3 attempts per scene, and check existing jobs before resubmitting. Keep usable clips despite small imperfections.
-4. **Assemble (30-second videos):** in a clean project at the chosen ratio, open Media Library → My Media → My AI Videos. Match each clip to its scene by job/asset ID and title, not by library order. Right-click each card → **Add to Timeline** in scene order 1 → 2 → 3, checking after each add that exactly one new clip appeared. Apply the section 5 framing check and any join trims or dissolves, then run **Auto Align Clips** on every populated track. Check: three clips, the right order, no gaps or overlaps, no duplicated audio, total length about 30 s.
-5. **10-second videos:** add the single clip to a clean project at the chosen ratio and check its framing. Auto Align is only needed if more than one item is on a track.
-6. **Save** the project as "<Story title> — 10s" or "— 30s" and confirm the save is visible.
-7. **Export:** Export Video as MP4, Full HD/1080p and High quality when the account includes it, at the project's ratio. Never buy an upgrade; if a setting is locked, use the closest included one and report it. Submit the export once, wait for it to finish, and confirm the exported file exists and opens (download through the visible controls if available). A clicked button or a queued export is not a finished export.
+4. **Assemble the 120-second video:** in a clean project at the chosen ratio, open Media Library → My Media → My AI Videos. Match each clip to its scene by job/asset ID and title, not by library order. Right-click each card → **Add to Timeline** in scene order S1 through S12, checking after each add that exactly one new clip appeared. Apply the section 5 framing check and any join trims or dissolves, then run **Auto Align Clips** on every populated track. Check: exactly twelve clips in order, eleven joins, no gaps or overlaps, no duplicated audio, and measured total duration 120 seconds.
+5. Check that all twelve clips are unique and in the planned order; never add a scene clip twice.
+6. **Save** the project as "<Story title> — 120s (12 scenes)" and confirm the save is visible.
+7. **Export:** Export Video as MP4, Full HD/1080p and High quality when the account includes it, at Landscape 16:9. Never buy an upgrade; if a setting is locked, use the closest included one and report it. Submit the export once, wait for it to finish, and confirm the exported file exists and opens (download through the visible controls if available). A clicked button or a queued export is not a finished export.
 
 ## 9. Final review and report
 
@@ -153,7 +153,7 @@ Watch the exported video once if you can, checking:
 Fix only clear failures, within the retry limits.
 
 Then report briefly:
-- project title, ratio, length (measured), number of scenes;
+- project title, Landscape 16:9 ratio, measured total length, and confirmation that there are twelve scenes;
 - the transition used at each join;
 - the export file or link;
 - any compromise (a locked setting, an imperfect beat);
